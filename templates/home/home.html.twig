@@ -4,13 +4,110 @@
 
 {% block body %}
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/app/src/Controller/HomeController.php</code></li>
-        <li>Your template at <code>/app/templates/home/index.html.twig</code></li>
-    </ul>
+<div class="container">
+    <div class="section01">
+        <h1>Newenn Turbiau</h1>
+        <h2>
+            <span class="line">Graphiste</span> <br> 
+            <span class="line">Webdesigner</span> <br> 
+            <span class="line">Développeur</span>
+        </h2>
+    </div>
 </div>
+
+<div class="section02">
+    <div class="texte">
+        <p>Graphiste et développeur web basé à Rennes, j'accompagne entreprises et associations dans la création de sites web, d'identités visuelles, ainsi que tous types de supports de communication print et web : affiches, flyers, brochures... </p>
+        <p><em>Degemer mat ! Amañ e vez komzet brezhoneg ivez !</em></p>
+        <div class="boutons-grp">
+            <a href="#"><div class="bouton bouton1" id="btn-portfolio">Voir le portfolio</div></a>
+            <a href="#"><div class="bouton bouton2" id="btn-etsy">Aller à la boutique Etsy</div></a>
+        </div>
+    </div>
+</div>
+
+<div class="section03 scroll-section horizontal-section">
+        <h2>Mes services</h2>
+        <div class="services-grp ">
+            <div class="wrapper">
+                <div role="list" class="list">
+
+                    <div role="listitem" class="item">
+                        <div class="service service1">
+                            <div class="texte">
+                                <h3>Identité visuelle</h3>
+                                <p>Le logotype est un élément indispensable lors de la création de votre activité. Accompagné d’une charte graphique, il permet d’identifier votre domaine d’activité du premier coup d’oeil et de communiquer vos valeurs. Décliné sur différents supports, il doit aussi répondre à un certain nombre de critères techniques pour être exploitable.</p>
+                                <a href="#"><div class="bouton">Voir le portfolio</div></a>
+                            </div>
+                            <div class="image">
+                                <img src="img/placeholder.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div role="listitem" class="item">
+                        <div class="service service2">
+                            <div class="texte">
+                                <h3>Site web</h3>
+                                <p>Autre élément indispensable à toute activité professionnelle, le site web est l’outil qui permet le contact direct avec votre public ou vos clients. Il doit de ce fait répondre à un certain nombre de normes techniques et ergonomiques pour être efficace et sécurisé. Découvrez mes services de création de sites web, depuis la maquette jusqu’à l’intégration WordPress.</p>
+                                <a href="#"><div class="bouton">Voir le portfolio</div></a>
+                            </div>
+                            <div class="image">
+                                <img src="img/placeholder.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div role="listitem" class="item">
+                        <div class="service service3">
+                            <div class="texte">
+                                <h3>Illustration</h3>
+                                <p>Une illustration permet de toucher votre public grâce à un univers graphique et poétique qui vous est propre. Elle peut être un véritable atout dans votre communication. En tant qu’illustrateur freelance, je vous propose des services de création d’illustrations originales et 100% personnalisées.</p>
+                                <a href="#"><div class="bouton">Voir le portfolio</div></a>
+                            </div>
+                            <div class="image">
+                                <img src="img/placeholder.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div role="listitem" class="item">
+                        <div class="service service4">
+                            <div class="texte">
+                                <h3>Supports print et web</h3>
+                                <p>Je vous accompagne dans la création de vos supports de communication, imprimés et numériques : affiche, brochure, flyer, visuels pour réseaux sociaux, plaquette commerciale, newsletters, animation, montage vidéo…</p>
+                                <p>En accord avec votre stratégie de communication, mes services de graphiste incluent la mise en place d’un langage graphique cohérent qui vous aide à atteindre vos objectifs auprès de votre public.</p>    
+                                <a href="#"><div class="bouton">Voir le portfolio</div></a>
+                            </div>
+                            <div class="image">
+                                <img src="img/placeholder.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section05">
+            <div class="image">
+                <img src="img/placeholder.png" alt="" width="700" height="700">
+            </div>
+            <div class="texte">
+                <h2>Qui suis-je</h2>
+                <p>Après plusieurs années d’études de design graphique à Barcelone puis à Quimper, je suis désormais basé à Rennes en tant que graphiste freelance.</p>
+                <p>Passionné par mon métier, je pratique une veille graphique continue. Cela me permet de me tenir à jour sur les évolutions de la discipline, et ainsi de proposer le meilleur service possible à mes client·es.</p>
+                <p>La vie culturelle, sociale et locale est ce qui donne un sens à mon travail. Le graphisme est pour moi une façon de soutenir l’activité là où je vis. Je propose ainsi mes services aux professionnels et aux associations à Rennes et dans toute la Bretagne.</p>
+                <div class="bouton" id="btn-contact">Contact</div>
+            </div>
+           
+        </div>
+    </div>
+
+    {% include "partials/anim01.html.twig" %}
+    {% include "partials/anim02.html.twig" %}
+
 {% endblock %}
