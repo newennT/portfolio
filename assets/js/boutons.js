@@ -2,6 +2,7 @@ const btnPortfolio = document.querySelector("#btn-portfolio");
 const btnEtsy = document.querySelector("#btn-etsy");
 const btnContact = document.querySelector("#btn-contact")
 let growing = false;
+let scaleFactor = 1.03;
 
 // Augmenter la taille progressivement
 const startGrowing2 = (element) => {

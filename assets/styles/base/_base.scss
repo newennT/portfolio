@@ -50,3 +50,28 @@ body{
         width: 1320px;
     }
 }
+
+
+.light {
+    position: fixed;
+    width: 500px; 
+    height: 500px;
+    background: radial-gradient(circle, #0b0025 20%, #0b002500 90%);
+    border-radius: 50%;
+    pointer-events: none; 
+    filter: blur(100px); 
+    transition: transform 0.1s ease-out; 
+    mix-blend-mode: screen;
+    z-index: 0;
+}
+
+
+.motifs-fond{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/motifs-fond.svg');
+  }
