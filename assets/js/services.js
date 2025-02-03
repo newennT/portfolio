@@ -1,3 +1,6 @@
+gsap.registerPlugin();
+gsap.registerPlugin(ScrollTrigger);
+
 const scrollSection = document.querySelectorAll(".scroll-section");
 
 scrollSection.forEach((section) => {

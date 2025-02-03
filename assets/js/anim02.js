@@ -1,3 +1,6 @@
+gsap.registerPlugin();
+gsap.registerPlugin(ScrollTrigger);
+
 const svgElement = document.querySelector("#anim02");
 
 let scaleFactor = 1.03;

@@ -1,3 +1,6 @@
+gsap.registerPlugin();
+gsap.registerPlugin(ScrollTrigger);
+
 const tl3 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section02",
