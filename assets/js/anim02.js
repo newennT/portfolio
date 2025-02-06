@@ -51,7 +51,7 @@ const tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: "body",
     start: "top -20%",
-    end: "bottom bottom",       
+    end: "bottom 50%",       
     scrub: 2,
     toggleActions: "play none none reverse"
   }
@@ -73,14 +73,22 @@ tl2.to("#anim02", {
   ease: "power1.inOut"
 }, ">");
 
-gsap.to("#anim02", {
-  scrollTrigger: {
-    trigger: ".section03",
-    start: "bottom top",   
-    end: "bottom top", 
-    scrub: 0.1, 
-  },
-  opacity: 0,
-});
+tl2.to("#anim02", {
+  scale: 0,
+  x: -500,
+  y: 1000,
+  duration: 3,
+  ease: "power1.inOut"
+}, ">");
+
+// gsap.to("#anim02", {
+//   scrollTrigger: {
+//     trigger: ".section03",
+//     start: "bottom top",   
+//     end: "bottom top", 
+//     scrub: 0.1, 
+//   },
+//   opacity: 0,
+// });
 
 };

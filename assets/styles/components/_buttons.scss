@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
     font-family: 'Bion-Bold', sans-serif;
 }
 
@@ -42,8 +42,8 @@ a{
 .service .bouton{
     display: inline-flex;
     background-color: #41338a;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: #41338a solid 2px;
     color: #ffffff;
   
@@ -76,25 +76,25 @@ a{
   
   .service1 .bouton{
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
     animation: float1 10s ease-in-out infinite alternate;
   }
   
   .service2 .bouton{
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 100px;
     animation: float2 10s ease-in-out infinite alternate;
   }
   
   .service3 .bouton{
     margin-left: 300px;
-    margin-top: 30px;
+    margin-top: 0px;
     animation: float3 10s ease-in-out infinite alternate;
   }
   
   .service4 .bouton{
     margin-left: 350px;
-    margin-top: 70px;
+    margin-top: 30px;
     animation: float4 10s ease-in-out infinite alternate;
   }
   
