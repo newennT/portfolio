@@ -1,5 +1,8 @@
-gsap.registerPlugin();
 gsap.registerPlugin(ScrollTrigger);
+
+console.log(document.querySelector("#arc1"));
+console.log(document.querySelector("#arc2"));
+console.log(document.querySelector("#arc3"));
 
 const rotationArc1 = gsap.to("#arc1", {
     rotation: 360,

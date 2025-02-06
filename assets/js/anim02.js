@@ -1,4 +1,5 @@
-gsap.registerPlugin();
+window.onload = function(){
+
 gsap.registerPlugin(ScrollTrigger);
 
 const svgElement = document.querySelector("#anim02");
@@ -82,3 +83,4 @@ gsap.to("#anim02", {
   opacity: 0,
 });
 
+};
