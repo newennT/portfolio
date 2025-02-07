@@ -72,7 +72,15 @@ Encore
     .copyFiles({
         from: './assets/fonts',
         to: 'fonts/[path][name].[ext]'
-    });
+    })
+
+    .copyFiles({
+        from: './assets/images',
+        to: 'images/[path][name].[ext]'
+    })
+    
+
+    
 ;
 
 module.exports = Encore.getWebpackConfig();
