@@ -3,7 +3,7 @@
     padding-top: 37vh;
     padding-bottom: 25vh;
     h1{
-        font-size: 5.2vw;
+        font-size: 100px;
         margin-bottom: 0;
         position: relative;
         z-index: 10000;
@@ -156,7 +156,6 @@ transform: scaleX(1);
     .image{
         width: 50%;
         border-radius: 50%;
-        background-color: #ffffff;
         object-fit: cover;
         overflow: hidden;
       }
